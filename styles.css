@@ -1,0 +1,23 @@
+
+#firstdiv{
+    text-align: center;
+    color: brown;
+    
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1px;
+   
+}
+.headings{
+    text-align: center;
+    color: brown;
+}
+#main{
+    
+    height: 100%;
+    width: 100%;
+
+}
+body{
+    background-image: url(images/bg.jpg);
+}
