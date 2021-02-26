@@ -11,6 +11,7 @@
 .headings{
     text-align: center;
     color: brown;
+    font-size: larger;
 }
 #main{
     
@@ -21,3 +22,36 @@
 body{
     background-image: url(images/corona.png);
 }
+#mantraheading{
+    font-size: 30px;
+    color: darkmagenta;
+    text-align: center;
+}
+#secdiv{
+    font-size: 50px;
+    color: darkmagenta;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 3px;
+}
+div span {
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:40px;
+
+    height: 40px;
+    border: radius 10px;
+    background-color:red;
+    color:#fff;
+  }
+  div{
+      margin: 5px;
+      padding: 2px;
+  }
+footer{
+    text-align: end;
+}
+  
