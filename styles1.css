@@ -25,7 +25,7 @@ body{
     padding: 10px;
     font-size: 40px;
     text-align: center;
-    color: brown;
+    color: red;
 }
 #barlist li{
     display: inline-block;
@@ -39,7 +39,7 @@ body{
     color: red;
     transition: 2s ease;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     padding: 15px;
     margin: 2px;
 }
