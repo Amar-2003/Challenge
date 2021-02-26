@@ -1,12 +1,41 @@
-
+*{
+    color: yellow;
+}
+body{
+    background-color: yellow;
+    background-image: url(images/bg.jpg);
+}
 #firstdiv{
     text-align: center;
-    
     
     margin: 10px;
     padding: 10px;
     border-radius: 1px;
+    font-size: 40px;
    
+}
+#barlist{
+    
+    
+    padding: 10px;
+    margin: 5px;
+}
+#barlist li{
+    display: inline-block;
+    margin-top: 15px;
+}
+#barlist li:hover{
+    background-color: brown;
+    color: white;
+    
+}
+#barlist  li a{
+    color: red;
+    transition: 2s ease;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 15px;
+    margin: 2px;
 }
 #coronaimage{
     float: left;
@@ -18,10 +47,9 @@
     font-size: larger;
 }
 #main{
-    
     height: 100%;
     width: 100%;
-
+    
 }
 
 #mantraheading{
@@ -33,10 +61,10 @@
     font-size: 50px;
     color: darkmagenta;
     text-align: center;
-    margin: auto;
-    width: 50%;
     
+    width: 100%;
     padding: 3px;
+    
 }
 div span {
     display:inline-flex;
@@ -80,10 +108,10 @@ secdiv  div:hover{
     color: red;
 }
 #main{
-    background-color: silver;
-    padding: auto;
+    
+    padding: 10px;
     margin: 20px;
-    height: 600px;
+    height: 800px;
 }
 #main  h2{
     text-align: center;
