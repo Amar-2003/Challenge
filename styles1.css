@@ -3,7 +3,6 @@
     text-decoration: none;
 }
 body{
-    background-color: yellow;
     background-image: url(images/bg.jpg);
 }
 #bar{
@@ -11,24 +10,22 @@ body{
     border-radius: 50%;
     padding: 15px;
     margin: 10px;
+    font-family: 'Dancing Script',cursive;
+
 }
-#firstdiv h1:hover,h2:hover{
+#firstdiv h1:hover{
+    color: greenyellow;
+}
+#firstdiv h2:hover{
     color: greenyellow;
 }
 #firstdiv{
-    text-align: center;
     transition: 1s ease;
     margin: 10px;
     padding: 10px;
-    border-radius: 1px;
     font-size: 40px;
-   
-}
-#barlist{
-    
-    
-    padding: 10px;
-    margin: 5px;
+    text-align: center;
+    color: brown;
 }
 #barlist li{
     display: inline-block;
@@ -37,7 +34,6 @@ body{
 #barlist li:hover{
     background-color: brown;
     color: white;
-    
 }
 #barlist  li a{
     color: red;
@@ -49,17 +45,11 @@ body{
 }
 #coronaimage{
     float: left;
-    width: 200px;
-}
-.headings{
-    text-align: center;
-    color: brown;
-    font-size: larger;
+    width: 300px;
 }
 #main{
     height: 100%;
     width: 100%;
-    
 }
 
 #mantraheading{
@@ -70,40 +60,30 @@ body{
 #secdiv{
     font-size: 50px;
     color: darkmagenta;
-    text-align: center;
-    
+    text-align: center;    
     width: 100%;
     padding: 3px;
-    
 }
 div span {
     display:inline-flex;
     align-items:center;
     justify-content:center;
     width:40px;
-
     height: 40px;
     border: radius 10px;
     background-color:red;
     color:#fff;
   }
   div{
-      margin: 5px;
-      padding: 2px;
-      font-family: fantasy;
-      font-style: italic;
+    margin: 5px;
+    padding: 2px;
+    font-family: fantasy;
+    font-style: italic;
   }
-footer{
-    text-align: end;
-}
-secdiv  div:hover{
-    color:green;
-}
 #spreading{
     text-align: end;
     font-size: medium;
-    color: red;
-    
+    color: red;    
 }
 #noprecautions{
     text-align: end;
@@ -112,7 +92,7 @@ secdiv  div:hover{
 }
 #Thirddiv{
     text-align: center;
-    font-size: medium;
+    font-size: large;
     width: 50%;
     margin: 10px;
     color: red;
