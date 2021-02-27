@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    font-weight: bolder;
+}
+body{
+    background-color: gold;
+}
+.slide-image{
+    position: absolute;
+    top: 80px;
+    left: 175px;
+}
+.image-captions{
+    position: absolute;
+    top: 600px;
+    left: 600px;
+    font-size: 30px;
+}
+#button-left{
+    position: absolute;
+    left: 125px;
+    top: 350px;
+    size: 30px;
+    font-size: 30px;
+    padding: 10px;
+}
+#button-right{
+    position: absolute;
+    right: 125px;
+    top: 350px;
+    size: 30px;
+    font-size: 30px;
+    padding: 10px;
+}
+#button-left:hover,#button-right:hover{
+    background-color: white;
+}
+
