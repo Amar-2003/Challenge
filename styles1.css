@@ -33,7 +33,6 @@ body{
 }
 #barlist li:hover{
     background-color: brown;
-    color: white;
 }
 #barlist  li a{
     color: white;
@@ -44,7 +43,8 @@ body{
     margin: 2px;
 }
 #coronaimage{
-    float: left;
+    position: absolute;
+    left: 250px;
     width: 300px;
 }
 #main{
