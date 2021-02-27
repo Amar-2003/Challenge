@@ -9,6 +9,7 @@ Webpage to spread awareness for COVID-19.
   5.About the testing the Covid-19 , symtoms,about its history and orgin(From othersources).
   6.About vaccines available in india
 It also contains a form for joining the community for spreading awareness.
+***The webpages completely made by me are about vaccines,being a part of the community(a form) and the homepage.Some link are there which redirects to concerned pages like about testing, symtoms etc..***.
 ![shot1](https://user-images.githubusercontent.com/73783193/109388943-1e610d00-7930-11eb-9e78-1184a9a2e666.png)
 ![shot2](https://user-images.githubusercontent.com/73783193/109388945-20c36700-7930-11eb-8c4b-2ff9a0e6008a.png)
 ![shot3](https://user-images.githubusercontent.com/73783193/109388946-21f49400-7930-11eb-82e9-ff5aedc2bc18.png)
