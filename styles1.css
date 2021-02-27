@@ -81,14 +81,10 @@ div{
 }
 #spreading{
     text-align: end;
-    font-size: medium;
-    color: red;    
+    font-size: larger;
+    color: white;    
 }
-#noprecautions{
-    text-align: end;
-    float: right;
-    color: tomato;
-}
+
 #Thirddiv{
     text-align: center;
     font-size: large;
@@ -116,7 +112,7 @@ div{
 }
 #maskproper{
     position: absolute;
-    top: 1500px;
+    top: 2200px;
     right: 10px;
 }    
 .unorderedlist{
@@ -131,5 +127,15 @@ ul > h3{
     width: 100%;
     padding: 3px;
     height: 80px;
+}
+.value-div{
+    background: orange;
+    color: black;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+.value-div p{
+    color: black;
 }
   
