@@ -3,11 +3,11 @@ h1{
     font-weight: bolder;
 }
 body{
-    background-color: gold;
+    background-color: lightblue;
 }
 .slide-image{
     position: absolute;
-    top: 80px;
+    top: 100px;
     left: 175px;
 }
 .image-captions{
@@ -35,4 +35,32 @@ body{
 #button-left:hover,#button-right:hover{
     background-color: white;
 }
-
+#main{
+    position: absolute;
+    top: 720px;
+    padding: 10px;
+    margin: 5px;
+}
+.smallhead{
+    text-align: center;
+    font-size: 50px;
+}
+.vaccineimage{
+    width: 50%;
+    height: 400px;
+    position: relative;
+    left: 25%;
+}
+.special-word{
+    color: blue;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 60px;   
+}
+footer{
+    position: absolute;
+    top: 3900px;
+    right: 5px;
+    padding: 10px;
+}
