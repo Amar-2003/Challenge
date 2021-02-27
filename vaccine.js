@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded",function (){
         shown++;
     }
     images[shown].style.visibility = "visible";
-    },5000);
+    },2500);
     slider1.addEventListener('click',function(){
         images[shown].style.visibility = "hidden";
     if(shown == 0){
