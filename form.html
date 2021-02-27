@@ -9,11 +9,9 @@
         <script src="form.js"></script>
     </head>
     <body>
-        <div>
-            <form action="index.html">
-                
+        <div>              
                 <p id="name">Full Name:</p>
-                <input type="text" autocomplete="off" id = "nameinput"placeholder="Enter your entire name" autofocus>
+                <input type="text" autocomplete="off" id = "nameinput" placeholder="Enter your entire name" autofocus>
                 <i class="fa fa-user fa-lg fa-fw" id="usericon"></i>
                 <p id="email">Enter Your Email id:</p>
                 <input type="text" autocomplete="off" id="emailinput" placeholder="abc@example.com">
@@ -52,8 +50,11 @@
                     <option value="Union Territories">
                 </datalist>
                 <i class="fa fa-map-marker fa-lg" aria-hidden="true" id="stateicon"></i>
-                <input type="submit" name="Submit" id="submitbutton">
-            </form>    
+                <button id="Submit_button">Submit</button>    
         </div>
+        <p id="feedback1"></p>
+        <form action="index.html">
+            <input type="submit" id="return_homepage" value="Return to home page">
+        </form>
     </body>
 </html>

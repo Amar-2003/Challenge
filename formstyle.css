@@ -81,12 +81,28 @@ div{
     top: 262px;
     left: 58px;
 }
-#submitbutton{
+#Submit_button{
     position: absolute;
     top: 350px;
+    left: 50px;
     width: 300px;
     height: 30px;
-    left: 50px;
+    background-color: orange;
+    border-radius: 10%;
+    border: palegoldenrod solid 1px;
+}
+#feedback1{
+    position: absolute;
+    top: 550px;
+    left: 550px;
+    font-size: large;
+}
+#return_homepage{
+    position: absolute;
+    top: 600px;
+    left: 500px;
+    width: 300px;
+    height: 30px;
     background-color: orange;
     border-radius: 10%;
     border: palegoldenrod solid 1px;
