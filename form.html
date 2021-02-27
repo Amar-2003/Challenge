@@ -5,13 +5,55 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
         <title>Form for joining Community to spread awareness</title>
         <link href="formstyle.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="form.js"></script>
     </head>
     <body>
         <div>
-            <p id="name">Full Name:</p>
-            <input type="text" autocomplete="off" id = "nameinput"placeholder="Enter your entire name" autofocus>
-            <p id="email">Enter Your Email id:</p>
-            <input type="text" autocomplete="off" id="emailinput" placeholder="abc@example.com">
+            <form action="index.html">
+                
+                <p id="name">Full Name:</p>
+                <input type="text" autocomplete="off" id = "nameinput"placeholder="Enter your entire name" autofocus>
+                <i class="fa fa-user fa-lg fa-fw" id="usericon"></i>
+                <p id="email">Enter Your Email id:</p>
+                <input type="text" autocomplete="off" id="emailinput" placeholder="abc@example.com">
+                <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true" id="emailicon"></i>
+                <p id="stateq">Your State</p>
+                <input  id="state" list="states" placeholder="Your State">
+                <datalist id="states">
+                    <option value="Kerala">
+                    <option value="TamilNadu">
+                    <option value="Karnataka">
+                    <option value="Andhra Pradesh">
+                    <option value="Maharastra">
+                    <option value="Madhya Pradesh">
+                    <option value="Orissa">
+                    <option value="Jharkhand">
+                    <option value="West Bengal">
+                    <option value="Chattisgarh">
+                    <option value="Gujarat">
+                    <option value="Rajasthan">
+                    <option value="Uttar Pradesh">
+                    <option value="Goa">
+                    <option value="Bihar">
+                    <option value="Assam">
+                    <option value="Arunachal Pradesh">
+                    <option value="Sikkim">
+                    <option value="Meghalaya">
+                    <option value="Tripura">
+                    <option value="Haryana">
+                    <option value="Himachal Pradesh">
+                    <option value="Jammu and Kashmir">
+                    <option value="Manipur">
+                    <option value="Mizoram">
+                    <option value="Nagaland">
+                    <option value="Punjab">
+                    <option value="Telangana">
+                    <option value="Union Territories">
+                </datalist>
+                <i class="fa fa-map-marker fa-lg" aria-hidden="true" id="stateicon"></i>
+                <input type="submit" name="Submit" id="submitbutton">
+            </form>    
         </div>
     </body>
 </html>
