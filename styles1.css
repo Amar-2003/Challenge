@@ -115,7 +115,9 @@ div{
     font-size: large;
 }
 #maskproper{
-    float: right;
+    position: absolute;
+    top: 1500px;
+    right: 10px;
 }    
 .unorderedlist{
     font-size: large;
