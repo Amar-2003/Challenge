@@ -11,7 +11,6 @@ body{
     padding: 15px;
     margin: 10px;
     font-family: 'Dancing Script',cursive;
-
 }
 #firstdiv h1:hover{
     color: greenyellow;
@@ -51,7 +50,6 @@ body{
     height: 100%;
     width: 100%;
 }
-
 #mantraheading{
     font-size: 30px;
     color: darkmagenta;
@@ -73,13 +71,13 @@ div span {
     border: radius 10px;
     background-color:red;
     color:#fff;
-  }
-  div{
+}
+div{
     margin: 5px;
     padding: 2px;
     font-family: fantasy;
     font-style: italic;
-  }
+}
 #spreading{
     text-align: end;
     font-size: medium;
@@ -98,7 +96,7 @@ div span {
     color: red;
 }
 .centereddiv{
-    margin: auto;
+  margin: auto;
   width: 50%;
   padding: 10px;
 }
@@ -107,7 +105,6 @@ div span {
     height: 480px;
 }
 #main{
-    
     padding: 10px;
     margin: 20px;
     height: 800px;
@@ -126,11 +123,10 @@ ul > h3{
     font-weight: bold;
 }
 #footerdiv{
-    background-color: greenyellow;
+    background-color: black;
     margin: 2px;
     width: 100%;
     padding: 3px;
     height: 80px;
-    
 }
   
