@@ -3,9 +3,7 @@
     text-decoration: none;
     font-family: 'Dancing Script',cursive;
 }
-body{
-    background-image: url(images/bg.jpg);
-}
+
 #bar{
     background-color: black;
     border-radius: 50%;
