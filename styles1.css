@@ -1,8 +1,8 @@
 *{
     color: yellow;
     text-decoration: none;
-    font-family: 'Dancing Script',cursive;
     background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #bar{
@@ -10,7 +10,6 @@
     border-radius: 50%;
     padding: 15px;
     margin: 10px;
-    font-family: 'Dancing Script',cursive;
 }
 #firstdiv h1:hover{
     color: greenyellow;
@@ -43,7 +42,7 @@
 }
 #coronaimage{
     position: absolute;
-    left: 220px;
+    left: 200px;
     width: 300px;
 }
 #main{
